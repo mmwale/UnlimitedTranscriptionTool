@@ -1,0 +1,46 @@
+/* Main styling rules applied to the App component */
+
+/* Center-align all text within the App component's container */ 
+.App {  
+  text-align:center;
+} 
+
+/* Logo styling rules */ 
+.App-logo {  
+  height :40vmin ;/*Set height of logo relative to viewport size*/
+  pointer-events:none ;/*Disable pointer events on logo*/
+} 
+
+/* Animation settings based on user preference */ 
+@media (prefers-reduced-motion:no-preference) {  
+  .App-logo {  
+      animation :App-logo-spin infinite20s linear ;/*Apply spinning animation indefinitely*/
+  }  
+} 
+
+/* Header styling rules */ 
+.App-header {  
+  background-color :#282c34 ;/*Dark background color*/
+  min-height :100vh ;/*Minimum height of header is full viewport height*/
+  display :flex ;/*Use flexbox layout*/
+  flex-direction :column ;/*Arrange child elements vertically*/
+  align-items :center ;/*Center-align child elements horizontally*/
+  justify-content :center ;/*Center child elements vertically*/
+  font-size :calc(10px +2vmin) ;/*Responsive font size based on viewport size*/
+  color :white ;/*White text color*/
+} 
+
+/* Link styling rules */ 
+.App-link {  
+  color :#61dafb ;/*Light blue link color*/
+} 
+
+/* Keyframes defining spinning animation */ 
+@keyframes App-logo-spin {  
+  from {  
+      transform :rotate(0deg) ;/*Start rotation at zero degrees*/
+  }  
+  to {  
+      transform :rotate(360deg) ;/*End rotation at full circle (360 degrees)*/
+  }  
+}

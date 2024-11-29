@@ -1,0 +1,206 @@
+/* Styles for the header section */
+.header {
+  background: #ede0d4; /* Light background color */
+  padding: 20px; /* Padding around header */
+  text-align: center; /* Center align text */
+  color: #116466; /* Text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+}
+
+/* Title styles within header */
+.header-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font family for title */
+  font-size: 2.5em; /* Font size for title */
+  margin: 0; /* Remove default margin */
+}
+
+/* Global body styles */
+body {
+  margin: 0; /* Remove default body margin */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; /* Font family for body text */
+  -webkit-font-smoothing: antialiased; /* Smoother font rendering on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smoother font rendering on Firefox for Mac */
+  background-color: #c5c6c7; /* Background color for body */
+}
+
+/* Styles for transcription interface container */
+.transcription-container {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center align children horizontally */
+  padding: 20px; /* Padding around container */
+}
+
+/* Styles for transcription textarea input */
+.transcription-textarea {
+  width: 80%; /* Width of textarea as a percentage of parent container */
+  min-height: 200px; /* Minimum height of textarea */
+  margin-bottom: 10px; /* Margin below textarea */
+  padding: 10px; /* Padding inside textarea */
+  border: 1px solid #ddd; /* Light border around textarea */
+  border-radius: 5px; /* Rounded corners for textarea */
+  resize: vertical; /* Allow vertical resizing only */
+}
+
+/* Button container styles within transcription interface */
+.transcription-button-container {
+  display: flex; /* Use flexbox layout for buttons */
+  justify-content: center; /* Center align buttons horizontally */
+  gap: 10px; /* Space between buttons */
+}
+
+/* Base styles for buttons in transcription interface */
+.btn {
+  padding: 10px 20px; /* Padding inside buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: all 0.3s ease; /* Smooth transition effect on hover */
+  font-weight: bold; /* Bold text inside buttons */
+  text-transform: uppercase; /* Uppercase text in buttons */
+}
+
+/* Hover effect for all buttons in transcription interface */
+.btn:hover {
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Specific styles for start transcription button */
+.btn-start-transcription {
+  background-color: #116466; /* Background color for start button */
+  color: white; /* Text color for start button */
+}
+
+/* Hover effect specifically for start transcription button */
+.btn-start-transcription:hover {
+  background-color: #116466; /* Maintain background color on hover (no change)*/
+}
+
+/* Specific styles for stop transcription button */
+.btn-stop-transcription {
+  background-color: red; /* Background color for stop button (red)*/
+  color: white; /* Text color for stop button*/
+}
+
+/* Hover effect specifically for stop transcription button*/
+.btn-stop-transcription:hover {
+   background-color: darkred;/* Darker red on hover*/
+}
+
+/* Specific styles for clear transcription button*/
+.btn-clear-transcription {
+   background-color: gray;/* Background color for clear button*/
+   color: white;/* Text color for clear button*/
+}
+
+/* Hover effect specifically for clear transcription button*/
+.btn-clear-transcription:hover {
+   background-color: dimgray;/* Dimmed gray on hover*/
+}
+
+/* Styles for export buttons section*/
+.export-buttons {
+   margin-bottom:20px;/*Margin below export buttons section*/
+   display:flex;/*Use flexbox layout*/
+   gap:10px;/*Space between export buttons*/
+}
+
+/* Specific styles for save button in export section*/
+.btn-save {
+   background-color:#4CAF50;/*Green background color*/
+}
+
+/* Hover effect specifically for save button*/
+.btn-save:hover {
+   background-color:#45a049;/*Darker green on hover*/
+}
+
+/* Specific styles for export to text button in export section*/
+.btn-export-text {
+   background-color:#2196F3;/*Blue background color*/
+}
+
+/* Hover effect specifically for export to text button*/
+.btn-export-text:hover {
+   background-color:#1E88E5;/*Darker blue on hover*/
+}
+
+/* Specific styles for export to PDF button in export section*/
+.btn-export-pdf {
+   background-color:#FF9800;/*Orange background color*/
+}
+
+/* Hover effect specifically for export to PDF button*/
+.btn-export-pdf:hover {
+   background-color:#F57C00;/*Darker orange on hover*/
+}
+
+/* Styles for statistics display section*/
+.stats-container {
+   display:flex;/*Use flexbox layout*/
+   justify-content:space-between;/*Space out items evenly*/
+   margin-bottom:20px;/*Margin below stats container*/
+   background-color:#f0f0f0;/*Light gray background color*/
+   padding:10px;/*Padding inside stats container*/
+   border-radius:5px;/*Rounded corners */
+}
+
+/* Styles for individual statistics items*/
+.stats-item {
+   display:flex;/*Use flexbox layout*/
+   flex-direction:column;/*Arrange items vertically*/
+   align-items:center;/* Center align items horizontally*/
+}
+
+/* Styles for search input field in saved transcriptions section*/
+.search-input {
+   width:100%;/*Full width input field*/
+   padding:10px;/*Padding inside input field*/
+   margin-bottom:10px;/*Margin below input field*/
+   border-radius:5px;/*Rounded corners*/
+   border:1px solid #ddd;/*Light border around input field*/
+}
+
+/* Styles for saved transcriptions list*/
+.saved-transcriptions-list {
+   list-style:none;/*Remove default bullet points from list*/
+   padding:0;/*Remove default padding from list*/
+}
+
+/* Styles for individual saved transcription items*/
+.saved-transcription-item {
+   border:1px solid #ddd;/*Light border around item*/
+   margin-bottom:10px;/*Margin below each item */
+   padding:10px;/*Padding inside item*/
+   border-radius:5px;/*Rounded corners*/
+}
+
+/* Styles for header of saved transcription items*/
+.saved-transcription-header {
+   display:flex;/*Use flexbox layout*/
+   justify-content:space-between;/*Space out header elements evenly*/
+   margin-bottom:10px;/*Margin below header*/
+}
+
+/* Styles for delete button within saved transcriptions section*/
+.btn-delete {
+   background-color:#f44336;/*Red background color*/
+   color:white;/*White text color*/
+   border:none;/*Remove default border*/
+   border-radius:3px;/*Rounded corners*/
+   padding:5px10px;/*Padding inside delete button*/
+   cursor:pointer;/*Change cursor to pointer on hover*/
+}
+
+/* Hover effect specifically for delete button*/
+.btn-delete:hover {
+    background-color:#d32f2f;/*Darker red on hover*/
+}
+
+/* Styles for browser support message displayed to users*/
+.browser-support-message {
+    color:red; /*Red text color*/
+    padding:20px;/*Padding around message*/
+    text-align:center;/*Center align message text*/
+}
