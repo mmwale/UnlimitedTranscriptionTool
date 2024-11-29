@@ -1,5 +1,6 @@
 # UnlimitedTranscriptionTool
-Welcome to the Unlimited Transcription Tool! 
+Welcome to the Unlimited Transcription Tool!
+
 This powerful web application leverages advanced speech recognition technology to convert spoken language into text effortlessly. 
 Designed for users who need accurate and efficient transcription, this tool allows you to record audio and receive real-time transcriptions, making it ideal for note-taking, interviews, lectures, and more.
 
